@@ -1,4 +1,5 @@
 **Instruções** 
+-O código se encontra nesse repositório: https://github.com/dyona21/Trabalho_de_TEC-
 -Verifique se você tem a versão Python 3.0 ou superior instalado em sua máquina. 
 -Para conseguir rodar o código em sua máquina faça o seguinte: 
 -No terminal do Linux faça a clonagem do repositório com o seguinte comando: 
