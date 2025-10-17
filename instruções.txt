@@ -1,0 +1,13 @@
+**Instruções** 
+-Verifique se você tem a versão Python 3.0 ou superior instalado em sua máquina. 
+-Para conseguir rodar o código em sua máquina faça o seguinte: 
+-No terminal do Linux faça a clonagem do repositório com o seguinte comando: 
+git clone https://github.com/dyona21/Trabalho_de_TEC.git 
+-Esse comando acima cria um diretório, para acessar esse diretório use o comando no terminal:
+cd Trabalho_de_TEC
+-Após isso pode ser executado
+-Dentro do diretório terá dois arquivos, um chamado entrada.in e outro chamado saida.out, no arquivo de entrada é para inserir os modelos a serem testados,
+já dentro do arquivo saida.out terá a o conteúdo após a execução do programa. 
+-Para executar o código use o comando Python conversorTEC.py
+-Após rodar o código o que foi gerado vai estar no arquivo saida.out, logo é só fazer a verificação da saída no site Morphett.    
+

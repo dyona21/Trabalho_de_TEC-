@@ -1,0 +1,41 @@
+;Sipser
+0 0 0 l ini
+0 1 1 l ini
+1 0 0 r a1
+1 1 1 r a1
+1 _ _ l 2
+2 x x l 2
+2 0 x l 3
+2 1 x l 3
+3 0 0 r 4
+3 1 1 r 4
+3 x 1 r 6
+4 x x r 4
+4 1 1 r 4
+4 _ 1 l 5
+5 1 1 l 5
+5 x x l 2
+6 1 1 r 6
+6 x 1 r 6
+6 _ _ l halt-accept
+;Modificações
+ini * # r a1
+a1 0 0 r 1
+a1 1 1 r 1
+0 # # r *
+1 # # r *
+2 # # r *
+3 # # r *
+4 # # r *
+5 # # r *
+6 # # r *
+ini # # r *
+a1 # # r *
+
+;Transições adicionadas para '_' faltantes
+0 _ _ r 0
+2 _ _ r 2
+3 _ _ r 3
+5 _ _ r 5
+ini _ _ r ini
+a1 _ _ r a1

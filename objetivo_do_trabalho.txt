@@ -1,0 +1,24 @@
+**Objetivo:**
+O objetivo deste trabalho é simular modelos de máquina de Turing utilizando a sintaxe do simulador online disponível em 
+[http://morphett.info/turing/turing.html](http://morphett.info/turing/turing.html).
+
+**Descrição do Trabalho:**
+- Desenvolver um "tradutor" de modelos de máquina de Turing.
+- Entrada: arquivo texto .in contendo programa para o simulador online.
+  - `;S` para modelo de Sipser (fita com início à esquerda).
+  - `;I` para modelo de fita duplamente infinita.
+- Saída: arquivo texto .out com programa oposto, executável no simulador.
+- Formato dos arquivos:
+    <current state> <current symbol> <new symbol> <direction> <new state>
+- Alfabeto da fita: letras (maiúsculas/minúsculas) e dígitos apenas.
+- Arquivos de entrada: máquinas de Turing determinísticas e válidas para o simulador.
+- Linguagem: reconhecimento de {0,1} em todos os programas de entrada e saída.
+
+**Requisitos Técnicos:**
+- Sistema Operacional: Ubuntu 22.04.4 LTS 64 bits.
+- Linguagem: Livre (dentro das restrições).
+- Entrega via Moodle com:
+- Programa final.
+- Instruções de execução claras.
+- Endereço do repositório público no GitHub com o código-fonte.
+
